@@ -1,0 +1,4 @@
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\bin\x64\Release\Serv.exe
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\bin\x64\Release\MySql.Data.dll
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\obj\x64\Release\Serv.exe
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\obj\x64\Release\Serv.csprojResolveAssemblyReference.cache

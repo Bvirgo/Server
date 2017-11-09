@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE0983ED-0B20-46A9-A71D-6BD9C0563443}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyGameServer</RootNamespace>
+    <AssemblyName>MyGameServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\PhotonServer\deploy\MyGameServer\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExitGames.Logging.Log4Net">
+      <HintPath>..\..\..\PhotonServerDll\ExitGames.Logging.Log4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="ExitGamesLibs">
+      <HintPath>..\..\..\PhotonServerDll\ExitGamesLibs.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\FluentNHibernate.2.0.3.0\lib\net40\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Iesi.Collections.4.0.1.4000\lib\net40\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>E:\PhotonServerDll\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\PhotonServerDll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NHibernate.4.0.4.4000\lib\net40\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon.SocketServer">
+      <HintPath>..\..\..\PhotonServerDll\Photon.SocketServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonHostRuntimeInterfaces">
+      <HintPath>E:\PhotonServerDll\PhotonHostRuntimeInterfaces.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientPeer.cs" />
+    <Compile Include="DataBase\Manager\EquipListMgr.cs" />
+    <Compile Include="DataBase\Manager\GoodsListMgr.cs" />
+    <Compile Include="DataBase\Manager\RoleInfoMgr.cs" />
+    <Compile Include="DataBase\Manager\RoleMgr.cs" />
+    <Compile Include="DataBase\Manager\ServerPropertyMgr.cs" />
+    <Compile Include="DataBase\Manager\SkillDataMgr.cs" />
+    <Compile Include="DataBase\Manager\TaskDataMgr.cs" />
+    <Compile Include="DataBase\Manager\UserLoginDataMgr.cs" />
+    <Compile Include="DataBase\Map\EquipListMap.cs" />
+    <Compile Include="DataBase\Map\GoodsListMap.cs" />
+    <Compile Include="DataBase\Map\RoleDataMap.cs" />
+    <Compile Include="DataBase\Map\RoleInfoMap.cs" />
+    <Compile Include="DataBase\Map\ServerPropertyMap.cs" />
+    <Compile Include="DataBase\Map\SkillDataMap.cs" />
+    <Compile Include="DataBase\Map\TaskDataMap.cs" />
+    <Compile Include="DataBase\Map\UserLoginDataMap.cs" />
+    <Compile Include="DataBase\Model\EquipList.cs" />
+    <Compile Include="DataBase\Model\GoodsList.cs" />
+    <Compile Include="DataBase\Model\RoleData.cs" />
+    <Compile Include="DataBase\Model\RoleInfoData.cs" />
+    <Compile Include="DataBase\Model\SkillData.cs" />
+    <Compile Include="DataBase\Model\TaskData.cs" />
+    <Compile Include="DataBase\NHibernateHelper.cs" />
+    <Compile Include="Handlers\BattleHandler.cs" />
+    <Compile Include="Handlers\HandlerBase.cs" />
+    <Compile Include="Handlers\LoginHandler.cs" />
+    <Compile Include="Handlers\MonsterHandler.cs" />
+    <Compile Include="Handlers\RoleHandler.cs" />
+    <Compile Include="Handlers\RoleInfoHandler.cs" />
+    <Compile Include="Handlers\ServerPropertyHandler.cs" />
+    <Compile Include="DataBase\Model\UserLoginData.cs" />
+    <Compile Include="Handlers\SkillHandler.cs" />
+    <Compile Include="Handlers\TaskHandler.cs" />
+    <Compile Include="Handlers\UserRegisteHandler.cs" />
+    <Compile Include="MyGameApplication.cs" />
+    <Compile Include="Plus\BattleTeam.cs" />
+    <Compile Include="Plus\DataManager.cs" />
+    <Compile Include="Plus\MonsterConfigData.cs" />
+    <Compile Include="Plus\MonsterManager.cs" />
+    <Compile Include="Plus\MyRoomTeam.cs" />
+    <Compile Include="Plus\RoomConfigData.cs" />
+    <Compile Include="Plus\SkillConfigData.cs" />
+    <Compile Include="Plus\TaskConfigData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tool\Helper.cs" />
+    <Compile Include="Tool\MD5Tool.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyGameCommon\MyGameCommon.csproj">
+      <Project>{367b8ee4-41d1-4de1-8e6c-a2cb02ea7520}</Project>
+      <Name>MyGameCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SkillConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TaskConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RoomConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MonsterConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

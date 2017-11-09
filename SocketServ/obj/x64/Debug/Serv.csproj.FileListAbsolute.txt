@@ -1,0 +1,8 @@
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\bin\x64\Debug\Serv.exe
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\bin\x64\Debug\Serv.pdb
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\bin\x64\Debug\MySql.Data.dll
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\obj\x64\Debug\Serv.exe
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\obj\x64\Debug\Serv.pdb
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\bin\x64\Debug\protobuf-net.dll
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\obj\x64\Debug\Serv.csprojResolveAssemblyReference.cache
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\bin\x64\Debug\LitJson.dll

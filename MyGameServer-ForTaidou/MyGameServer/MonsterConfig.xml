@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Monster id="001" hp="10000" attackDis="0" atkCD="0" damage="100" cruise="30" pursuit="40"/>
+  <Monster id="002" hp="10000" attackDis="0" atkCD="0" damage="100" cruise="30" pursuit="40"/>
+  <Monster id="003" hp="1000" attackDis="2" atkCD="1" damage="50" cruise="30" pursuit="40"/>
+  <Monster id="004" hp="3000" attackDis="2" atkCD="1" damage="100" cruise="30" pursuit="40"/>
+  <Monster id="005" hp="2000" attackDis="3" atkCD="1" damage="150" cruise="50" pursuit="70"/>
+  <Monster id="006" hp="3000" attackDis="3" atkCD="1" damage="200" cruise="30" pursuit="40"/>
+  <Monster id="007" hp="2000" attackDis="3" atkCD="1" damage="250" cruise="30" pursuit="40"/>
+  <Monster id="008" hp="2000" attackDis="3" atkCD="1" damage="300" cruise="30" pursuit="40"/>
+  <Monster id="009" hp="4000" attackDis="3" atkCD="1" damage="400" cruise="30" pursuit="40"/>
+  <Monster id="010" hp="10000" attackDis="4" atkCD="5" damage="1000" cruise="30" pursuit="40"/>
+  <Monster id="011" hp="2000" attackDis="2" atkCD="1" damage="100" cruise="30" pursuit="40"/>
+  <Monster id="012" hp="2000" attackDis="2.5" atkCD="1" damage="150" cruise="30" pursuit="40"/>
+  <Monster id="101" hp="10000" attackDis="3.5" atkCD="2" damage="500" cruise="50" pursuit="100"/>
+</Root>

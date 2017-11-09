@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGameServer", "MyGameServer\MyGameServer.csproj", "{CE0983ED-0B20-46A9-A71D-6BD9C0563443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGameCommon", "MyGameCommon\MyGameCommon.csproj", "{367B8EE4-41D1-4DE1-8E6C-A2CB02EA7520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE0983ED-0B20-46A9-A71D-6BD9C0563443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0983ED-0B20-46A9-A71D-6BD9C0563443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0983ED-0B20-46A9-A71D-6BD9C0563443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0983ED-0B20-46A9-A71D-6BD9C0563443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367B8EE4-41D1-4DE1-8E6C-A2CB02EA7520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367B8EE4-41D1-4DE1-8E6C-A2CB02EA7520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367B8EE4-41D1-4DE1-8E6C-A2CB02EA7520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367B8EE4-41D1-4DE1-8E6C-A2CB02EA7520}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

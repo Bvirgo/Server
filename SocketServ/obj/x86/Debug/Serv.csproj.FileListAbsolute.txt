@@ -1,0 +1,12 @@
+I:\TanNetPro\Chapter11\Serv\Serv\bin\Debug\Serv.exe
+I:\TanNetPro\Chapter11\Serv\Serv\bin\Debug\Serv.pdb
+I:\TanNetPro\Chapter11\Serv\Serv\obj\x86\Debug\Serv.csprojResolveAssemblyReference.cache
+I:\TanNetPro\Chapter11\Serv\Serv\obj\x86\Debug\Serv.exe
+I:\TanNetPro\Chapter11\Serv\Serv\obj\x86\Debug\Serv.pdb
+I:\TDRpg\Serv\obj\x86\Debug\Serv.exe
+I:\TDRpg\Serv\obj\x86\Debug\Serv.pdb
+I:\TDRpg\Serv\bin\Debug\Serv.exe
+I:\TDRpg\Serv\bin\Debug\Serv.pdb
+I:\TDRpg\Serv\obj\x86\Debug\Serv.csprojResolveAssemblyReference.cache
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\obj\x86\Debug\Serv.exe
+F:\0N_C_E_Git\TDRpg\TDRpg\Serv\obj\x86\Debug\Serv.pdb

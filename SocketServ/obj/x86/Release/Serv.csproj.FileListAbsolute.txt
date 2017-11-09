@@ -1,0 +1,3 @@
+I:\TanNetPro\Chapter11\Serv\Serv\bin\Release\Serv.exe
+I:\TanNetPro\Chapter11\Serv\Serv\obj\x86\Release\Serv.csprojResolveAssemblyReference.cache
+I:\TanNetPro\Chapter11\Serv\Serv\obj\x86\Release\Serv.exe

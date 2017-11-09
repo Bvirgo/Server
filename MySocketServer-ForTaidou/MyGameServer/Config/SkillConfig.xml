@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?> 
+    <Root>  
+      <Role Sex="1" SkillBase="1001" SkillOne="1002" SkillTwo="1003" SkillThere="1004"/>
+      <Role Sex="0" SkillBase="2001" SkillOne="2002" SkillTwo="2003" SkillThere="2004"/>
+    </Root>  

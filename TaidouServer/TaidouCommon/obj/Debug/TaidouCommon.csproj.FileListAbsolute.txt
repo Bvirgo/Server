@@ -1,0 +1,9 @@
+E:\Photon Workspace\TaidouServer\TaidouCommon\bin\Debug\TaidouCommon.dll
+E:\Photon Workspace\TaidouServer\TaidouCommon\bin\Debug\TaidouCommon.pdb
+E:\Photon Workspace\TaidouServer\TaidouCommon\obj\Debug\TaidouCommon.dll
+E:\Photon Workspace\TaidouServer\TaidouCommon\obj\Debug\TaidouCommon.pdb
+E:\Photon Workspace\TaidouServer\TaidouCommon\bin\Debug\LitJson.dll
+I:\TaidouServer\TaidouCommon\bin\Debug\TaidouCommon.dll
+I:\TaidouServer\TaidouCommon\bin\Debug\TaidouCommon.pdb
+I:\TaidouServer\TaidouCommon\obj\Debug\TaidouCommon.dll
+I:\TaidouServer\TaidouCommon\obj\Debug\TaidouCommon.pdb
